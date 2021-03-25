@@ -29,7 +29,7 @@ table td{
   line-height: 22px;
 }
 
-table tr.dash-border:last-child{
+table tr:last-child{
   border-top: dashed 2px #000;
 }
 /* 回答はここに書いてね */
