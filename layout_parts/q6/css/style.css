@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6-1_left{
+.q6-1_display-box{
   text-align: center;
 }
 
-.q6-1_l{
+.q6-1_display{
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
   display: inline-block;
 }
 
-.q6-1_right{
+.q6-1_margin-box{
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
@@ -24,34 +24,34 @@
   display: table;
 }
 
-.q6-2_top{
+.q6-2_table-box{
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.q6-2_t{
+.q6-2_table{
   display: inline-block;
   background-color: #FFF;
   padding: 10px;
 }
 
-.q6-2_bottom{
+.q6-2_flex-box{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.q6-2_b{
+.q6-2_flex{
   background-color: #FFF;
   padding: 10px;
 }
 
-.q6-2_left{
+.q6-2_position{
   position: relative;
 }
 
-.q6-2_l{
+.q6-2_position-margin{
   position: absolute;
   top: 0;
   right: 0;
@@ -60,11 +60,7 @@
   margin: auto;
 }
 
-.q6-2_right{
-  position: relative;
-}
-
-.q6-2_r{
+.q6-2_position-trans{
   position: absolute;
   top: 50%;
   left: 50%;
