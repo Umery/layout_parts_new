@@ -4,32 +4,32 @@
 table.food{
   table-layout: fixed;
   width: 100%;
-  text-align: center;
   border-collapse: collapse;
 }
 
-table tr:nth-child(odd){
+.food tr:nth-child(even){
 	background: #ecf1f2;
 }
 
-table th, table td{
+.food th, .food td{
   border: solid 1px #dedede;
   padding: 10px;
+  text-align: center;
 }
 
-table th{
+.food thead tr, .food tbody tr th{
   background-color: #2244aa;
   color: white;
   font-size: 18px;
   line-height: 26px;
 }
 
-table td{
+.food td{
   font-size: 16px;
   line-height: 22px;
 }
 
-table tr:last-child{
+.food tbody tr:last-child{
   border-top: dashed 2px #000;
 }
 /* 回答はここに書いてね */
