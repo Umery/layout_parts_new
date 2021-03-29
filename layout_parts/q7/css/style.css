@@ -1,19 +1,20 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.text{
+  width: 205px;
+  font-size: 16px;
+}
+
 .clearfix:after {
   display: block;
   content: "";
   clear: both;
 }
-
-.float-left{
-  width: 205px;
+.float-box-left{
   float: left;
 }
-
-.float-right{
-  width: 205px;
+.float-box-right{
   float: right;
   margin-left: 50px;
 }
@@ -21,13 +22,46 @@
 .main-table{
   display: table;
 }
-
 .side-table{
   display: table-cell;
-  width: 225px;
+  vertical-align: middle;
 }
-
 .side-table:last-child{
   padding-left: 50px;
+}
+
+.inline-box{
+  font-size: 0;
+}
+.text-inline{
+  display: inline-block;
+  vertical-align: middle;
+}
+.text-inline:last-child{
+  margin-left: 50px;
+}
+
+.flex-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7-box{
+  font-size: 0;
+}
+.margin-box {
+  display: inline-block;
+  vertical-align: top;
+}
+.box-left{
+  width: 300px;
+}
+.box-right{
+  width : calc(100% - 350px);
+  margin-left: 50px;
+}
+.q7-text{
+  font-size: 16px;
 }
 /* 回答はここに書いてね */
