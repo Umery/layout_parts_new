@@ -7,7 +7,7 @@ table.food{
   border-collapse: collapse;
 }
 
-.food tr:nth-child(even){
+.food tbody tr:nth-child(even){
 	background: #ecf1f2;
 }
 
