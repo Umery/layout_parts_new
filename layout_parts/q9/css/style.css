@@ -11,20 +11,19 @@
   padding: 20px;
   position: relative;
 }
-.q9-text::before {
+.q9-text::before, .q9-text::after{
   content: "";
   position: absolute;
+  border: 20px solid transparent;
+}
+.q9-text::before{
   bottom: -45px;
   left: 30px;
-  border: 20px solid transparent;
   border-top-color: #222;
 }
-.q9-text::after {
-  content: "";
-  position: absolute;
+.q9-text::after{
   bottom: -38px;
   left: 30px;
-  border: 20px solid transparent;
   border-top-color: #FFF;
 }
 /* 回答はここに書いてね */

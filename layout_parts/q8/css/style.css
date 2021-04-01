@@ -9,7 +9,6 @@
   position: relative;
 }
 .q8-image{
-  position: absolute;
   transition: 0.5s;
 }
 .q8-box:hover img{
@@ -28,7 +27,6 @@
 .q8-text{
   position: absolute;
   bottom: 0;
-  left: 0;
   padding: 20px;
   box-sizing: border-box;
   font-size: 16px;

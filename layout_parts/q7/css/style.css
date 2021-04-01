@@ -11,11 +11,10 @@
   content: "";
   clear: both;
 }
-.float-box-left{
+.float-box{
   float: left;
 }
-.float-box-right{
-  float: right;
+.float-box:last-child{
   margin-left: 50px;
 }
 
