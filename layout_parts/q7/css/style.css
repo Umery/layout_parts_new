@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.text{
+.text {
   width: 205px;
   font-size: 16px;
 }
@@ -12,47 +12,50 @@
   clear: both;
 }
 
-.float-box{
+.float-box {
   float: left;
+  margin-left: 50px;
 }
 
-.float-box:first-child{
-  margin-right: 50px;
+.float-box:first-child {
+  margin-left: 0;
 }
 
-.main-table{
+.main-table {
   display: table;
 }
 
-.side-table{
+.side-table {
   display: table-cell;
   vertical-align: middle;
+  padding-left: 50px;
 }
 
-.side-table:first-child{
-  padding-right: 50px;
+.side-table:first-child {
+  padding-left: 0;
 }
 
-.inline-box{
+.inline-box {
   font-size: 0;
 }
 
-.text-inline{
+.text-inline {
   display: inline-block;
   vertical-align: middle;
+  margin-left: 50px;
 }
 
-.text-inline:first-child{
-  margin-right: 50px;
+.text-inline:first-child {
+  margin-left: 0;
 }
 
-.flex-box{
+.flex-box {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7-box{
+.q7-box {
   font-size: 0;
 }
 
@@ -61,18 +64,18 @@
   vertical-align: top;
 }
 
-.box-left{
+.box-left {
   width: 300px;
 }
 
-.box-right{
+.box-right {
   width : 100%;
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
 }
 
-.q7-text{
+.q7-text {
   font-size: 16px;
 }
 /* 回答はここに書いてね */
